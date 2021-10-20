@@ -1,0 +1,12 @@
+body {
+ background-color:tomato;   
+text-decoration: none;
+}
+h1{
+    font-size: 70px;
+}
+button{
+    font-size: 30px;
+    background-color: wheat;
+    text-decoration: none;
+}
