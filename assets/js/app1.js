@@ -66,4 +66,5 @@ document.getElementById("tabla_radiologia").innerHTML = texto;
 document.getElementById("ultima").innerHTML = (`Primer Atención : ${radiologia[0].PACIENTE} - ${radiologia[0].PREVISION} 
 | Ultima Atención : ${radiologia[4].PACIENTE} - ${radiologia[4].PREVISION}`);
 document.getElementById("subtitulo").innerHTML = ("Estadísticas del centro médico ñuñoa");
+document.getElementById("numero_atendidos").innerHTML = (`la cantidad de antencio de radiologia : ${radiologia.length}`);
 

@@ -83,3 +83,4 @@ document.getElementById("tabla_traumatologia").innerHTML = texto;
 document.getElementById("ultima").innerHTML = (`Primer Atención : ${traumatologia[0].PACIENTE} - ${traumatologia[0].PREVISION} | 
 Ultima Atención : ${traumatologia[6].PACIENTE} - ${traumatologia[6].PREVISION}`);
 document.getElementById("subtitulo").innerHTML = ("Estadísticas del centro médico ñuñoa");
+document.getElementById("numero_atendidos").innerHTML = (`la cantidad de antencio de radiologia : ${traumatologia.length}`);

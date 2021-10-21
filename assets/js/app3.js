@@ -73,3 +73,4 @@ document.getElementById("tabla_dental").innerHTML = texto;
 document.getElementById("ultima").innerHTML = (`Primer Atención : ${dental[0].PACIENTE} - ${dental[0].PREVISION} 
 | Ultima Atención : ${dental[5].PACIENTE} - ${dental[5].PREVISION}`);
 document.getElementById("subtitulo").innerHTML = ("Estadísticas del centro médico ñuñoa")
+document.getElementById("numero_atendidos").innerHTML = (`la cantidad de antencio de radiologia : ${dental.length}`);
